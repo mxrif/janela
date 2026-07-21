@@ -15,6 +15,7 @@ label.grid(row=0, column=0)
 entry = Entry(root)
 entry.grid(row=0, column=1)
 button = Button(root, text='Klicken', command=clicked)
+# columnspan=2 centraliza o botão
 button.grid(row=1, column=0, columnspan=2)
 root.mainloop()
 
